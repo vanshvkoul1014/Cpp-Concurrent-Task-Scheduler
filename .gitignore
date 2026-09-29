@@ -1,0 +1,30 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+benchmark
+run_tests
+
+# macOS
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
